@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-::root {
+:root {
     --cor001: #49a09d;
     --cor002: #5f2c82;
 }
@@ -8,4 +8,47 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor001), var(--cor002));
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: url("../imagens/imagem-400.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#formulário {
+    padding: 10px;
+    display: block;
 }
