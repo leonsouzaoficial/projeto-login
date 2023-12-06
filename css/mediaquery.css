@@ -3,18 +3,19 @@
 @media screen and (min-width: 768px) and (min-height: 600px) and (max-width: 992px) {
     section#login {
         width: 80vw;
+        height: 400px;
     }
 
     section#login > div#imagem {
         float: left;
-        width: 30%;
+        width: 50%;
         height: 100%;
         background-image: url("../imagens/imagem-600.jpg");
     }
 
     section#login > div#formulário {
         float: right;
-        width: 70%;
+        width: 50%;
     }
 }
 

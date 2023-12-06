@@ -34,14 +34,13 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 250px;
+    width: 300px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
-    margin: 10px 0px;
 }
 
 section#login > div#imagem {
